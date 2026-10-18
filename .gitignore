@@ -1,0 +1,16 @@
+notes/
+ms-token.txt
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+dist/
+output/
+.playwright-cli/
+.playwright/
+mstodo*.json
+mstodo*.attachments/
+.mstodo-extract-*/
+todo-sp*.json
+todo-sp*.attachments/

@@ -1,0 +1,239 @@
+{
+  "appFeatures": {
+    "isTimeTrackingEnabled": true,
+    "isFocusModeEnabled": true,
+    "isSchedulerEnabled": true,
+    "isPlannerEnabled": true,
+    "isBoardsEnabled": true,
+    "isScheduleDayPanelEnabled": true,
+    "isIssuesPanelEnabled": true,
+    "isProjectNotesEnabled": true,
+    "isSyncIconEnabled": true,
+    "isSearchEnabled": true,
+    "isDonatePageEnabled": true,
+    "isHabitsEnabled": true,
+    "isFinishDayEnabled": true
+  },
+  "localization": {},
+  "tasks": {
+    "isConfirmBeforeDelete": true,
+    "isAutoAddWorkedOnToToday": true,
+    "isAutoMarkParentAsDone": false,
+    "isTrayShowCurrent": true,
+    "defaultProjectId": "INBOX_PROJECT",
+    "isMarkdownFormattingInNotesEnabled": true,
+    "notesTemplate": "**How can I best achieve it now?**\n\n**What do I want?**\n\n**Why do I want it?**\n",
+    "priorityIconPreset": "chevrons"
+  },
+  "misc": {
+    "isConfirmBeforeExit": false,
+    "isConfirmBeforeExitWithoutFinishDay": true,
+    "isMinimizeToTray": false,
+    "isLocalRestApiEnabled": false,
+    "isCheckForUpdates": true,
+    "isTrayShowCurrentCountdown": true,
+    "startOfNextDay": 0,
+    "startOfNextDayTime": "00:00",
+    "isDisableAnimations": false,
+    "isVerticalActionBar": false,
+    "isDisableCelebration": true,
+    "isShowProductivityTipLonger": false,
+    "customTheme": "default",
+    "defaultStartPage": 0,
+    "backgroundImageDark": null,
+    "backgroundImageLight": null
+  },
+  "shortSyntax": {
+    "isEnableProject": true,
+    "isEnableDue": true,
+    "isEnableDeadline": false,
+    "isEnableTag": true,
+    "urlBehavior": "keep"
+  },
+  "evaluation": {
+    "isHideEvaluationSheet": false
+  },
+  "idle": {
+    "isOnlyOpenIdleWhenCurrentTask": false,
+    "isSuppressIdleDuringFocusMode": false,
+    "isEnableIdleTimeTracking": true,
+    "minIdleTime": 300000
+  },
+  "takeABreak": {
+    "isTakeABreakEnabled": true,
+    "isLockScreen": false,
+    "isTimedFullScreenBlocker": false,
+    "timedFullScreenBlockerDuration": 8000,
+    "isFocusWindow": false,
+    "takeABreakMessage": "You have been working for ${duration} without one. Go away from the computer! Take a short walk! Makes you more productive in the long run!",
+    "takeABreakMinWorkingTime": 3600000,
+    "takeABreakSnoozeTime": 900000,
+    "motivationalImgs": []
+  },
+  "dominaMode": {
+    "isEnabled": false,
+    "interval": 300000,
+    "volume": 75,
+    "text": "Your current task is: ${currentTaskTitle}",
+    "voice": ""
+  },
+  "focusMode": {
+    "isSkipPreparation": false,
+    "isShowPreparation": false,
+    "isPlayTick": false,
+    "focusModeSound": "off",
+    "isPauseTrackingDuringBreak": true,
+    "autoStartFocusOnPlay": false,
+    "isManualBreakStart": false
+  },
+  "flowtime": {
+    "isBreakEnabled": false,
+    "breakMode": "ratio",
+    "breakPercentage": 20,
+    "breakRules": []
+  },
+  "clipboardImages": {
+    "imagePath": null
+  },
+  "pomodoro": {
+    "duration": 1500000,
+    "breakDuration": 300000,
+    "longerBreakDuration": 900000,
+    "cyclesBeforeLongerBreak": 4
+  },
+  "keyboard": {
+    "globalShowHide": "Ctrl+Shift+X",
+    "globalToggleTaskStart": null,
+    "globalAddNote": null,
+    "globalAddTask": null,
+    "globalToggleTaskWidget": null,
+    "addNewTask": "Shift+A",
+    "addNewProject": "Shift+P",
+    "addNewNote": "Alt+N",
+    "openProjectNotes": "Shift+N",
+    "toggleTaskViewCustomizerPanel": "C",
+    "toggleIssuePanel": "P",
+    "focusSideNav": "Shift+D",
+    "toggleSideNavMode": "Ctrl+B",
+    "showHelp": "?",
+    "showSearchBar": "Shift+F",
+    "toggleBacklog": "B",
+    "goToFocusMode": "F",
+    "goToWorkView": "W",
+    "goToScheduledView": "Shift+S",
+    "goToTimeline": "Shift+T",
+    "goToSettings": null,
+    "zoomIn": "Ctrl++",
+    "zoomOut": "Ctrl+-",
+    "zoomDefault": "Ctrl+0",
+    "triggerSync": "Ctrl+S",
+    "taskEditTitle": null,
+    "taskToggleDetailPanelOpen": "I",
+    "taskOpenNotesPanel": "N",
+    "taskOpenNotesFullscreen": null,
+    "taskOpenEstimationDialog": "T",
+    "taskSchedule": "S",
+    "taskScheduleToday": "Shift+T",
+    "taskScheduleTomorrow": null,
+    "taskScheduleNextWeek": null,
+    "taskScheduleNextMonth": null,
+    "taskScheduleDeadline": "Shift+S",
+    "taskUnschedule": "U",
+    "taskToggleDone": "D",
+    "taskAddSubTask": "A",
+    "taskDuplicate": "Ctrl+D",
+    "taskAddAttachment": "L",
+    "taskDelete": "Backspace",
+    "taskMoveToProject": "E",
+    "taskOpenContextMenu": "Q",
+    "selectPreviousTask": "K",
+    "selectNextTask": "J",
+    "moveTaskUp": "Ctrl+Shift+ArrowUp",
+    "moveTaskDown": "Ctrl+Shift+ArrowDown",
+    "moveTaskToTop": "Ctrl+Alt+ArrowUp",
+    "moveTaskToBottom": "Ctrl+Alt+ArrowDown",
+    "moveToBacklog": "Shift+B",
+    "expandSubTasks": null,
+    "collapseSubTasks": null,
+    "togglePlay": "Y",
+    "taskEditTags": "G",
+    "taskToggleSelect": "X"
+  },
+  "localBackup": {
+    "isEnabled": true,
+    "maxBackupFiles": 51
+  },
+  "sound": {
+    "volume": 75,
+    "isIncreaseDoneSoundPitch": true,
+    "doneSound": "ding-small-bell.mp3",
+    "breakReminderSound": null,
+    "trackTimeSound": null
+  },
+  "timeTracking": {
+    "defaultEstimate": 0,
+    "defaultEstimateSubTasks": 0,
+    "isNotifyWhenTimeEstimateExceeded": true,
+    "isAutoStartNextTask": false,
+    "isTrackingReminderEnabled": false,
+    "isTrackingReminderShowOnMobile": false,
+    "trackingReminderMinTime": 300000,
+    "isTrackingReminderNotify": false,
+    "isTrackingReminderFocusWindow": false
+  },
+  "reminder": {
+    "isCountdownBannerEnabled": true,
+    "countdownDuration": 600000,
+    "defaultTaskRemindOption": "AtStart",
+    "isFocusWindow": false,
+    "useAlarmStyleReminders": false,
+    "notifyOnDueDate": true,
+    "dueDateNotificationHour": 9
+  },
+  "schedule": {
+    "isWorkStartEndEnabled": true,
+    "workStart": "9:00",
+    "workEnd": "17:00",
+    "isLunchBreakEnabled": false,
+    "lunchBreakStart": "13:00",
+    "lunchBreakEnd": "14:00"
+  },
+  "sync": {
+    "isEnabled": false,
+    "isCompressionEnabled": false,
+    "isEncryptionEnabled": false,
+    "encryptKey": null,
+    "syncProvider": null,
+    "syncInterval": 60000,
+    "isManualSyncOnly": false,
+    "webDav": {
+      "baseUrl": null,
+      "userName": null,
+      "password": null,
+      "syncFolderPath": "super-productivity"
+    },
+    "superSync": {
+      "baseUrl": "https://sync.super-productivity.com",
+      "userName": null,
+      "password": null,
+      "accessToken": null,
+      "syncFolderPath": null
+    },
+    "localFileSync": {
+      "syncFolderPath": ""
+    },
+    "nextcloud": {
+      "serverUrl": null,
+      "loginName": null,
+      "userName": null,
+      "password": null,
+      "syncFolderPath": "super-productivity"
+    },
+    "oneDrive": {
+      "useCustomApp": true,
+      "clientId": "",
+      "tenantId": "common",
+      "syncFolderPath": "Super Productivity"
+    }
+  }
+}
